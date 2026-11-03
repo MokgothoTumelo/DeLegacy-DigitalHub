@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Founder portrait placeholder</title>
+  <desc id="desc">A simple illustrated silhouette with DE LEGACY blue and magenta accents, ready to be replaced with a founder photograph.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2f3f5"/>
+      <stop offset="1" stop-color="#dfe2e8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#25272d"/>
+      <stop offset="1" stop-color="#101114"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#paper)"/>
+  <circle cx="320" cy="300" r="206" fill="#1768f5" opacity=".09"/>
+  <path d="M74 800c13-139 82-226 189-260 19-6 38-9 57-9s38 3 57 9c107 34 176 121 189 260H74Z" fill="url(#shirt)"/>
+  <path d="M250 516c18 20 42 31 70 31s52-11 70-31v-98H250v98Z" fill="#bd8b68"/>
+  <ellipse cx="320" cy="323" rx="133" ry="166" fill="#d7aa87"/>
+  <path d="M187 326c-8-130 42-211 145-211 91 0 146 57 142 180-25-14-44-39-55-72-51 44-132 61-230 53l-2 50Z" fill="#18191d"/>
+  <path d="M235 331c16-12 34-12 51 0M354 331c16-12 34-12 51 0" fill="none" stroke="#242328" stroke-linecap="round" stroke-width="9"/>
+  <path d="M282 410c25 17 51 17 76 0" fill="none" stroke="#7a423b" stroke-linecap="round" stroke-width="8"/>
+  <path d="M84 744h176" stroke="#1768f5" stroke-width="18"/>
+  <path d="M380 744h176" stroke="#ec168f" stroke-width="18"/>
+  <path d="m260 744 24-18h72l24 18" fill="#101114"/>
+</svg>
