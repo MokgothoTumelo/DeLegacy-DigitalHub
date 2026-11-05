@@ -77,7 +77,7 @@ h3 { margin: 0 0 7px; font: 800 clamp(32px, 4vw, 46px)/.94 var(--display); lette
 .card-link:focus-visible, .hero-cta:focus-visible, .header-link:focus-visible, .brand:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
 .link-arrow { display: grid; place-items: center; color: var(--blue); transition: transform .2s; }
 .destination-card:nth-child(even) .link-arrow { color: var(--pink); }
-.card-link:not([aria-disabled="true"]):hover .link-arrow { transform: translate(2px, -2px); }
+.card-link:not([aria-disabled="true"]):hover .link-arrow { transform: translateY(2px); }
 .about { padding: 84px clamp(22px, 11vw, 168px) 92px; border-top: 1px solid var(--line); background: #fff; }
 .about-heading { margin-bottom: 36px; }
 .about-title-accent { color: var(--blue); }
