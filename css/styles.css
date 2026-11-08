@@ -275,3 +275,12 @@ body::before {
 @media (max-width: 760px) {
   body::before { opacity: .045; }
 }
+/* Let the light artwork show through the page surfaces while preserving contrast. */
+body::before { opacity: .22; }
+.destination-card.card-clothing { background: rgb(255 255 255 / 78%); }
+.about { background: rgb(255 255 255 / 82%); }
+.founder-feature { background: rgb(245 245 242 / 80%); }
+.closing-band { background: rgb(16 17 20 / 94%); }
+@media (max-width: 760px) {
+  body::before { opacity: .16; }
+}
