@@ -253,3 +253,25 @@ h3 { margin: 0 0 7px; font: 800 clamp(32px, 4vw, 46px)/.94 var(--display); lette
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+/* Keep the page light and use the supplied artwork as a faint texture. */
+body {
+  position: relative;
+  isolation: isolate;
+  background: var(--paper);
+  color: var(--ink);
+}
+body::before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background-image: url("../images/legacy-background-white.jpeg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .06;
+  pointer-events: none;
+}
+@media (max-width: 760px) {
+  body::before { opacity: .045; }
+}
