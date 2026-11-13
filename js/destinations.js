@@ -2,7 +2,7 @@
    to show that destination as “Coming soon”. */
 window.DE_LEGACY_DESTINATIONS = {
   run: "https://derun-eta.vercel.app/",
-  clothing: "https://dlclothingstore.vercel.app/",
+  clothing: "https://dlclothing.vercel.app/",
   opportunities: "",
   partnerships: ""
 };
